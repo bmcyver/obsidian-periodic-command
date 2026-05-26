@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-periodic-command",
+	"name": "Obsidian Periodic Command",
+	"version": "0.1.0",
+	"minAppVersion": "1.5.7",
+	"description": "A command for creating periodic notes.",
+	"author": "bmcyver",
+	"authorUrl": "https://github.com/bmcyver",
+	"isDesktopOnly": false
+}
