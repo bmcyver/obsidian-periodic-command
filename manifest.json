@@ -1,6 +1,6 @@
 {
 	"id": "obsidian-periodic-command",
-	"name": "Obsidian Periodic Command",
+	"name": "Periodic Command",
 	"version": "0.1.0",
 	"minAppVersion": "1.5.7",
 	"description": "A command for creating periodic notes.",
