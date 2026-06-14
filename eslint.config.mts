@@ -13,11 +13,5 @@ export default defineConfig(
       },
     },
   },
-  globalIgnores([
-    'dist/**',
-    'node_modules/**',
-    '*.json',
-    '*.mts',
-    'main.js',
-  ]),
+  globalIgnores(['dist/**', 'node_modules/**', '*.json', '*.mts', 'main.js']),
 );
