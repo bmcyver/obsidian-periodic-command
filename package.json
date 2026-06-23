@@ -1,27 +1,24 @@
 {
   "name": "obsidian-periodic-command",
-  "version": "0.1.0",
-  "main": "main.js",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "node esbuild.config.mts",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mts production",
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
     "format": "prettier --write .",
     "lint": "eslint ."
   },
-  "keywords": [],
-  "license": "MIT",
   "devDependencies": {
-    "@types/node": "^25.9.2",
-    "esbuild": "^0.28.0",
-    "eslint": "^10.4.1",
+    "@types/node": "^25.9.3",
+    "esbuild": "^0.28.1",
+    "eslint": "^10.5.0",
     "eslint-plugin-obsidianmd": "^0.3.0",
     "globals": "^17.6.0",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.60.1"
+    "typescript-eslint": "^8.61.1"
   },
   "dependencies": {
-    "obsidian": "^1.13.0"
+    "obsidian": "^1.13.1"
   }
 }
